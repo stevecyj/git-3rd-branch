@@ -5,10 +5,14 @@
 //   }
 // }
 
-let w;
-let h;
-function calBmi(w, h) {
-  let num = parseFloat(w / Math.pow(h / 100, 2));
-  console.log(num);
+// function calBmi(w, h) {
+//   let num = parseFloat(w / Math.pow(h / 100, 2));
+//   console.log(num);
+// }
+// calBmi(95, 177);
+
+let sum = 0;
+for (var i = 0; i < 11; i++) {
+  sum += i;
 }
-calBmi(70, 177);
+console.log(sum);
